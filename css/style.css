@@ -1,0 +1,336 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@200;300;400;500;600;700;800;900&family=Lora:ital,wght@0,400;0,500;0,600;0,700;1,400;1,500&family=Open+Sans:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+
+body{
+margin: 0;
+padding: 0;
+font-family: 'Inter', sans-serif;
+font-family: 'Lora', serif;
+font-family: 'Open Sans', sans-serif;
+font-family: 'Poppins', sans-serif;
+}
+:root {
+    --blue: #00AFEF;
+    --black: #0A0826;
+    --white: #ffffff;
+    --small_title: #555555;
+  }
+
+p{
+margin: 0;
+padding: 0;
+}
+h1,h2,h3,h4,h5,h6{
+margin: 0;
+padding: 0;
+}
+
+/*  Header Section Start*/
+@media screen and (max-width:768px){
+    nav ul{
+        text-align:center;
+    }
+}
+nav ul li a{
+font-family: Lora;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 23px;
+font-feature-settings: 'liga' off;
+color: #425F6A;
+
+}
+nav ul li a:hover{
+    border-bottom: 3px solid var(--blue);
+}
+/*  Header Section end*/
+/*  slider Section Start*/
+
+.carousel-caption {
+    bottom: 200px;
+ 
+}
+.carousel-caption h5 {
+    font-family: Lora;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 72px;
+    line-height: 120.5%;
+    text-align: center;
+    color: #FFFFFF;
+ 
+}
+.carousel-caption button {
+    width: 168px;
+    height: 44px;
+    margin-top: 20px;
+    background: #91C854;
+    border-radius: 3px;
+    border: none;
+}
+.carousel-caption p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: center;
+    color: #FFFFFF;
+    
+}
+.carousel-control-next-icon, .carousel-control-prev-icon {
+    width: 32px;
+    height: 54px;
+  
+}
+/*  slider Section end*/
+
+
+/*  About Section Start*/
+.about-section{
+    padding: 100px 0px
+}
+.about-section .col-md-6{
+    transition: all 1s;
+}
+.about-section .col-md-6:hover{
+    transform: scale(.8);
+}
+.about-section img{
+    width: 100%;
+}
+.about-section h2{
+font-family: Lora;
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+line-height: 60px;
+color: #0A0826;
+}
+.about-section p{
+    font-family: Open Sans;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 16px;
+    line-height: 28px;
+    color: #6C6C6C;
+    }
+    .about-section button{
+ width: 214px;
+height: 44px;
+margin-top: 10px;
+background: #00AFEF;
+color: #ffffff;
+border: none;
+    }
+
+/*  About Section end*/
+
+
+
+
+
+/* package Section Start*/
+.package-section ul li {
+list-style-image: url(../images/correct.svg); 
+font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 15px;
+line-height: 22px;
+color: #848199;
+margin-left: -20px;
+margin-top: 5px;
+  }
+  .package-section{
+      padding: 50px 0px;
+  }
+  .package-section .row .col-md-3{
+      transition: all 1s;
+  }
+  .package-section .row .col-md-3:hover{
+    background-color: #00AFEF;
+    transform: translateY(-50px);
+    background-image: linear-gradient(#3F87F5,#77C370);
+    padding-bottom: 10px;
+    border-radius: 20px;
+  }
+
+  .package-section h2{
+    font-family: Lora;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 38px;
+    line-height: 49px;
+    text-align: center;
+    text-transform: capitalize;
+    color: #383838;
+   padding-bottom: 100px;
+    
+  }
+  .package-section span{
+      color: #00AFEF;
+  }
+  .package-section p{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 15px;
+    line-height: 22px;
+    color: #848199;
+    
+    }
+    .package-section button{
+    background-color:#E5F7FD;
+    color: #3F87F5;
+    border-radius: 24px;
+    border: none;
+    padding: 10px 50px;
+    }
+    .package-section h3{
+    
+        font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 36px;
+        line-height: 46px;
+        color: #231D4F;
+        }
+        .package-section h4{
+            font-family: Roboto;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 28px;
+        line-height: 33px;
+        color: #231D4F;
+        }
+
+/* package Section end*/
+
+
+
+
+
+/* Testimonial Section start*/
+.testimonial-section{
+    padding: 50px 0px;
+}
+
+.testimonial-section .col-md-4{
+    background: #FFFFFF;
+box-shadow: 0px 12px 30px rgba(0, 0, 0, 0.13);
+border-radius: 5px;
+padding: 50px 10px;
+transition: all 1s;
+}
+.testimonial-section .col-md-4:hover{
+    transform: scale(.8);
+}
+.testimonial-section h3{
+font-family: Lora;
+font-style: normal;
+font-weight: bold;
+font-size: 38px;
+text-align: center;
+padding-bottom: 50px;
+line-height: 49px;
+color: #0C1920;
+}
+.testimonial-section span{
+    color: #98CC5E
+}
+.testimonial-section p{
+    font-family: Poppins;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 26px;
+text-align: center;
+letter-spacing: 0.2px;
+
+color: #6C6C6C;
+
+}
+.testimonial-section .client {
+    text-align: center;
+}
+.testimonial-section h5{
+    font-family: Poppins;
+font-style: normal;
+font-weight: 600;
+font-size: 14px;
+line-height: 24px;
+letter-spacing: 0.2px;
+color: #0C1920;
+}
+.testimonial-section h6{
+    font-family: Poppins;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+    color: #747474;
+}
+
+
+
+/* Testimonial Section end*/
+
+
+/* question-section start*/
+.question-section{
+    padding: 50px 0px;
+    transition: all 1s;
+}
+.question-section h1{
+font-family: Lora;
+font-style: normal;
+font-weight: 600;
+font-size: 38px;
+line-height: 50px;
+text-align: center;
+padding-bottom: 50px;
+color: #0D0925;
+}
+.question-section span{
+    color: #98CC5E;
+}
+.question-section .collapsed{
+font-family: Inter;
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 28px;
+font-feature-settings: 'tnum' on, 'lnum' on;
+color: #383838;
+}
+.question-section .accordion-body{
+font-family: Inter;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 28px;
+font-feature-settings: 'tnum' on, 'lnum' on;
+color: #7E848C;
+
+}
+.question-section img{
+    width: 100%;
+}
+
+
+/* question-section end*/
+
+/*footer section start*/
+.footer-section p{
+font-family: Manrope;
+font-style: normal;
+font-weight: normal;
+font-size: 14px;
+line-height: 24px;
+font-feature-settings: 'liga' off;
+color: #D9DBE1;
+}
+/*footer section end*/
